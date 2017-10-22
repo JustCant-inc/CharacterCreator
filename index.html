@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>D&D 5e Character Creator</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel='stylesheet' href='css/main.css'>
+  </head>
+  <body class='container'>
+    <div class='wrapper'>
+        <h1 id='title'>D&D 5e Character Creator</h1>
+          <div class='row selectMenus'>
+              <div class='col-4'>
+                  <h2><strong>Race</strong></h2>
+                  <select class='raceSelect'>
+                      <option>Select a Race...</option>
+                      <option>Dwarf</option>
+                      <option>Elf</option>
+                      <option>Halfling</option>
+                      <option>Human</option>
+                      <option>Dragonborn</option>
+                      <option>Gnome</option>
+                      <option>Half-Elf</option>
+                      <option>Half-Orc</option>
+                      <option>Tiefling</option>
+                  </select>
+                  <p id='raceModExplain'></p>
+              </div>
+              <div class='col-4'>
+                  <h2><strong>Class</strong></h2>
+                  <select class='classSelect'>
+                      <option>Select a Class...</option>
+                      <option>Barbarian</option>
+                      <option>Bard</option>
+                      <option>Cleric</option>
+                      <option>Druid</option>
+                      <option>Fighter</option>
+                      <option>Monk</option>
+                      <option>Paladin</option>
+                      <option>Rogue</option>
+                      <option>Ranger</option>
+                      <option>Sorcerer</option>
+                      <option>Warlock</option>
+                      <option>Wizard</option>                 
+                  </select>
+                  <p id='classModExplain'></p>
+                </div>
+              <div class='col-4'>
+                  <h2><strong>Alignment</strong></h2>
+                  <select id='alignSelect'>
+                      <option>Select an Alignment...</option>
+                      <option>Lawful Good</option>
+                      <option>Chaotic Good</option>
+                      <option>Neutral Good</option>
+                      <option>Lawful Neutral</option>
+                      <option>True Neutral</option>
+                      <option>Chaotic Neutral</option>
+                      <option>Neutral Evil</option>
+                      <option>Chaotic Evil</option>
+                      <option>Lawful Evil</option>
+                  </select>
+              </div>
+
+          </div>
+          <h2>Ability Stats</h2>
+          <div class='row justify-content-center'>
+            <button type='button' class='col-1' id='rollBtn'>Roll</button>
+          </div>               
+          <div class='row abilities'>              
+              <div id='str' class='col'>
+                Str: <p class='attr'></p>
+                Mod: <p class='mod'></p>
+              </div>
+              <div id='dex' class='col'>
+                Dex: <p class='attr'></p>
+                Mod: <p class='mod'></p>
+              </div>
+              <div id='con' class='col'>
+                Con: <p class='attr'></p>
+                Mod: <p class='mod'></p>
+              </div>
+              <div id='int' class='col'>
+                Int: <p class='attr'></p>
+                Mod: <p class='mod'></p>
+              </div>
+              <div id='wis' class='col'>
+                Wis: <p class='attr'></p>
+                Mod: <p class='mod'></p>
+              </div>
+              <div id='cha' class='col'>
+                Cha: <p class='attr'></p>
+                Mod: <p class='mod'></p>
+              </div>
+          </div>
+          <div>
+            <h2>Equipment</h2>
+              <div class='equipment row justify-content-md-center'>
+              </div>
+          </div>
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script src='main.js'></script>
+      </div>
+  </body>
+</html>
